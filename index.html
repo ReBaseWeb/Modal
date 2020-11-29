@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal__left">
+        <div class="modal__closeIcon">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <ion-icon name="language"></ion-icon>
+        <span>Welcome</span>
+        <h2>Help verify translations for your language</h2>
+        <p class="modal__paragraph">Your contribution may be rewarded</p>
+        <button>Get started</button>
+      </div>
+      <div class="modal__right">
+        <div class="modal__closeIcon">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <h1>Select the languages you speak</h1>
+        <div class="modal__rightSearch">
+          <ion-icon name="search-outline"></ion-icon
+          ><input type="search" placeholder="Search languages to add" />
+        </div>
+        <div class="modal__rightSelectedLanguage">
+          <p class="modal__paragraph">Selected languages</p>
+          <div>English</div>
+        </div>
+      </div>
+    </div>
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  </body>
+</html>
